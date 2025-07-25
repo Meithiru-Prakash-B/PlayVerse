@@ -7,5 +7,5 @@ const reducer=combineReducers({
  export const store=configureStore({
     reducer,
     middleware:(getDefaultMiddleware)=>
-        getDefaultMiddleware({serailizeableCheck: false}),
+        getDefaultMiddleware({serializableCheck: false}),
 })
